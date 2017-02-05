@@ -13,6 +13,6 @@ class JsonToPattern < Formula
   end
 
   test do
-    system "#{bin}/json-to-pattern", "-h"
+    system "json-to-pattern", "-h"
   end
 end
