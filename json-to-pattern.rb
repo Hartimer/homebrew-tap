@@ -9,7 +9,7 @@ class JsonToPattern < Formula
   depends_on :python if MacOS.version <= :snow_leopard
 
   def install
-    bin.install "bin/json-to-pattern"
+    bin.install "json-to-pattern"
   end
 
   test do
