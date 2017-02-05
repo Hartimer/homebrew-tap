@@ -9,9 +9,10 @@ class JsonToPattern < Formula
   depends_on :python if MacOS.version <= :snow_leopard
 
   def install
-    virtualenv_install_with_resources
+    bin.install "bin/json-to-pattern"
   end
 
   test do
+    system "#{bin}/json-to-pattern", "-h"
   end
 end
