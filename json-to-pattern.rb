@@ -13,6 +13,5 @@ class JsonToPattern < Formula
   end
 
   test do
-    system "json-to-pattern", "-h"
   end
 end
